@@ -1,0 +1,147 @@
+@media screen and (min-width: 10px) and (max-width: 320px) {
+    .header-container img {
+        width: 45px;
+    }
+
+    .header-container h1 {
+        padding-top: 1.75rem;
+        font-size: 1.5rem;
+    }
+    
+    .header-container h2 {
+        font-size: .75rem;
+        padding: .75rem .75rem;
+        margin-top: 1rem;
+    }
+
+    main {
+        padding: 1rem 1rem;
+    }
+
+    .main-image {
+        width: 250px;
+    }
+
+    .main-banner {
+        gap: 3rem;
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    .banner-text h2 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    .form {
+        padding: 1.5rem;
+    }
+
+    .form-container {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .input-container {
+        width: auto;
+    }
+
+    .form-button {
+        width: 100%;
+    }
+
+    .results-paragraph {
+        font-size: 1rem;
+        padding: 1.5rem;
+    }
+
+    .results-paragraph h4 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width: 640px) {
+    .header-container h1 {
+        font-size: 2rem;
+    }
+    
+    .header-container h2 {
+        font-size: .8rem;
+        padding: .75rem 1rem;
+    }
+
+    main {
+        padding: 1rem 1rem;
+    }
+
+    .main-image {
+        width: 250px;
+    }
+
+    .main-banner {
+        gap: 3rem;
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    .banner-text h2 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    .form {
+        padding: 1.5rem;
+    }
+
+    .form-container {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .input-container {
+        width: auto;
+    }
+
+    .form-button {
+        width: 100%;
+    }
+
+    .results-paragraph {
+        font-size: 1rem;
+        padding: 1.5rem;
+    }
+
+    .results-paragraph h4 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1355px) {
+    main {
+        padding: 1rem 1rem;
+    }
+
+    .main-image {
+        width: 250px;
+    }
+
+    .main-banner {
+        gap: 3rem;
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    .form {
+        padding: 1.5rem;
+    }
+}

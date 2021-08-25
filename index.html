@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/barbecue-icon.png" type="image/x-icon">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <img src="./assets/img/barbecue-logo.png" alt="Logo Churrascômetro">
+            <h1>Churrascômetro</h1>
+            <h2>Faça seu churrasco sem errar em nenhuma quantidade.</h2>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="main-banner">
+                <img class="main-image" src="./assets/img/barbecue-illustration.svg" alt="Ilustração Churrasco" width="450px">
+                <div class="banner-text">
+                    <h2>Faça o cálculo da quantidade de carne e bebidas que serão necessários para o seu churrasco!</h2>
+                    <p>
+                        Insira abaixo o número de adultos, crianças e a duração (em horas) do seu churrasco:
+                    </p>
+                </div>
+            </div>
+            <form class="form">
+                <div class="form-container">
+                    <div class="input-container">
+                        <img class="input-icons" src="./assets/img/adult-icon.png" alt="Ícone Adulto">
+                        <h3>Adultos</h3>
+                        <input class="input-default" id="adultos" name="adultos" type="number" placeholder="Quantidade de Adultos">
+                    </div>
+                    <div class="input-container">
+                        <img class="input-icons" src="./assets/img/children-icon.png" alt="Ícone Criança">
+                        <h3>Crianças</h3>
+                        <input class="input-default" id="criancas" name="criancas" type="number" placeholder="Quantidade de Crianças">
+                    </div>
+                    <div class="input-container">
+                        <img class="input-icons" src="./assets/img/time-icon.png" alt="Ícone Duração">
+                        <h3>Duração</h3>
+                        <input class="input-default" id="duracao" name="duracao" type="number" placeholder="Duração do churrasco">
+                    </div>
+                </div>
+                <button onclick="calcular(), mostrarResultado()" class="form-button" id="calc" type="button">Calcular</button>
+            </form>
+        </div>
+        <div class="results" id="resultado-div">
+            <p class="results-paragraph" id="resultado"></p>
+        </div>
+    </main>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>

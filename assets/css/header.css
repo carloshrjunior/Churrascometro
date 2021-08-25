@@ -1,0 +1,30 @@
+.header {
+    background: url(../img/barbecue-background.jpg) fixed no-repeat center / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 3rem;
+}
+
+.header-container h2 {
+    background-color: rgba(135, 64, 50, 80%);
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 1.5rem;
+    padding: .75rem 5rem;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 40%);
+}
